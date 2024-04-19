@@ -1,39 +1,6 @@
-
-|status| |documentation| |codeql| |license| |pypi| |pyversion| |downloads| |black|
-
-.. |status| image:: http://www.repostatus.org/badges/latest/active.svg
-  :target: http://www.repostatus.org/#active
-  :alt: Project Status: Active – The project has reached a stable, usable state and is being actively developed.
-
-.. |documentation| image:: https://readthedocs.com/projects/nvidia-nemo/badge/?version=main
-  :alt: Documentation
-  :target: https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/
-
-.. |license| image:: https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg
-  :target: https://github.com/NVIDIA/NeMo/blob/master/LICENSE
-  :alt: NeMo core license and license for collections in this repo
-
-.. |pypi| image:: https://badge.fury.io/py/nemo-toolkit.svg
-  :target: https://badge.fury.io/py/nemo-toolkit
-  :alt: Release version
-
-.. |pyversion| image:: https://img.shields.io/pypi/pyversions/nemo-toolkit.svg
-  :target: https://badge.fury.io/py/nemo-toolkit
-  :alt: Python version
-
-.. |downloads| image:: https://static.pepy.tech/personalized-badge/nemo-toolkit?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads
-  :target: https://pepy.tech/project/nemo-toolkit
-  :alt: PyPi total downloads
-
-.. |codeql| image:: https://github.com/nvidia/nemo/actions/workflows/codeql.yml/badge.svg?branch=main&event=push
-  :target: https://github.com/nvidia/nemo/actions/workflows/codeql.yml
-  :alt: CodeQL
-
-.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
-  :target: https://github.com/psf/black
-  :alt: Code style: black
-
-.. _main-readme:
+**This is Evozyne's fork of NVIDIA NeMo.**
+It only changes the ``pyproject.toml`` and ``setup.py`` files to manage dependencies in a far more sane manner.
+``poetry build`` can be used to build a wheel, which can then be uploaded to Evozyne's private PyPI.
 
 **NVIDIA NeMo**
 ===============

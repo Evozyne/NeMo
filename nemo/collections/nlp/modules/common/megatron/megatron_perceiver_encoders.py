@@ -65,6 +65,7 @@ class MegatronPerceiverEncoderModule(MegatronModule):
         fp32_residual_connection=False,
         activations_checkpoint_method=None,
         activations_checkpoint_num_layers=1,
+        activations_checkpoint_granularity=None,
         layernorm_epsilon=1e-5,
         bias_activation_fusion=True,
         bias_dropout_add_fusion=True,
